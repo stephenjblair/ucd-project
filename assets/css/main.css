@@ -198,6 +198,36 @@ td {
     margin-top: 50px;
 }
 
+/*SINGLES PAGE*/
+
+.singles-container {
+  display: flex;
+  width: 75vw;
+  height: 75vh;
+  justify-content: center;
+  margin: auto;
+}
+
+.playlist {
+    width: 100%;
+    justify-content: center;
+}
+
+.singles {
+    margin: 0;
+    float: left;
+    clear: none;
+    width: 100vw;
+}
+
+.singles h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-top: 50px;
+}
+
+
 
 /*RESPONSIVE MEDIA QUERIES*/
 
