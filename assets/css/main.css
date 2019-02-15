@@ -561,4 +561,21 @@ input {
     
     .spotify-albums {
         margin-top: 30px;
-    }    
+    }  
+   .column {
+        float: none;
+        width: 75%;
+   }
+   .column img {
+     height: 40vh;
+   }
+    .form-container {
+        flex-direction: column;
+    }
+    .social {
+        flex-direction: column;
+    }
+    .headline {
+        display: block;
+    }
+}    
