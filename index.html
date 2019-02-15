@@ -155,6 +155,129 @@
         <div class="singles-container">
             <iframe class="playlist" src="https://www.youtube.com/embed/eimgRedLkkU?list=PL962F3071CD67DE00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+    </section>  
+    <!--GALLERY PAGE-->
+    <section class="gallery" id="gallery-page">
+        <h1>gallery</h1>
+        <div class="gallery-color-bar" id="top-bar"></div>
+        <div class="gallery-wrapper">
+    <!--W3 SCHOOLS LIGHTBOX/MODAL GALLERY-->
+        <!-- IMAGES USED TO OPEN THE LIGHTBOX-->
+        <div class="row">
+          <div class="column">
+            <img src="assets/images/empire6.jpg" alt="Sydney" style="width:100%" height="200" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire7.jpg" alt="Jools-Holland" style="width:100%" height="200" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire8.jpg" alt="Miami" style="width:100%" height="200" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire9.jpg" alt="Paris" style="width:100%" height="200" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire10.jpg" alt="Melbourne" style="width:100%" height="200" onclick="openModal();currentSlide(5)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire11.jpg" alt="London" style="width:100%" height="200" onclick="openModal();currentSlide(6)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire14.jpg" alt="New-York" style="width:100%" height="200" onclick="openModal();currentSlide(7)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="assets/images/empire13.jpg" alt="Los-Angeles" style="width:100%" height="200" onclick="openModal();currentSlide(8)" class="hover-shadow">
+          </div>
+        </div>
+
+    <!-- THE MODAL/LIGHTBOX -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 8</div>
+              <img src="assets/images/empire6.jpg"  alt="Sydney" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 8</div>
+              <img src="assets/images/empire7.jpg" alt="Later-with-Jools-Holland" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 8</div>
+              <img src="assets/images/empire8.jpg" alt="Miami" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 8</div>
+              <img src="assets/images/empire9.jpg" alt="Paris" style="width:100%">
+            </div>
+            <div class="mySlides">
+              <div class="numbertext"> 5 / 8</div>
+              <img src="assets/images/empire10.jpg" alt="Melbourne" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 8</div>
+              <img src="assets/images/empire11.jpg" alt="London" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 8</div>
+              <img src="assets/images/empire14.jpg" alt="New-York" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 8</div>
+              <img src="assets/images/empire13.jpg" alt="Los-Angeles" style="width:100%">
+            </div>
+
+            <!--NEXT/PREVIOUS CONTROLS-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!--CAPTION TEXT-->
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+
+            <!--THUMBNAIL IMAGE CONTROLS-->
+            <div class="column">
+              <img class="demo" src="assets/images/empire6.jpg" onclick="currentSlide(1)" alt="Sydney">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/empire7.jpg" onclick="currentSlide(2)" alt="Later with Jools Holland">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/empire8.jpg" onclick="currentSlide(3)" alt="Miami">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/empire9.jpg" onclick="currentSlide(4)" alt="Paris">
+            </div>
+            <div class="column">
+              <img class="demo" src="assets/images/empire10.jpg" onclick="currentSlide(5)" alt="Melbourne">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/empire11.jpg" onclick="currentSlide(6)" alt="London">
+            </div>
+
+            <div class="column">
+              <img class="demo" src="assets/images/empire14.jpg" onclick="currentSlide(7)" alt="New-York">
+            </div>
+
+            <div class="column">
+             <img class="demo" src="assets/images/empire13.jpg" onclick="currentSlide(8)" alt="Los-Angeles">
+            </div>
+          </div>
+        </div>
+        <div class="gallery-color-bar" id="bottom-bar"></div>
+    </div>
     </section>    
     
 

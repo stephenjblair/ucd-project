@@ -235,6 +235,41 @@ td {
     margin-top: 50px;
 }
 
+/*GALLERY PAGE*/
+
+.gallery {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    float: left;
+    clear: none;
+}
+
+.gallery-wrapper {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000;
+}
+
+.gallery h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.gallery-color-bar {
+    height: 10vw;
+    width: 100vw;
+    background-color: #9D00FF;
+    opacity: 0.2;
+}
+
+#bottom-bar {
+    margin-top: 50px;
+}
 
 
 /*RESPONSIVE MEDIA QUERIES*/
