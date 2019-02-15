@@ -30,9 +30,9 @@ html,body {
     z-index: 10;
     padding-top: 0;
 }
+
 .navbar-toggle {
     display: hidden;
-
 }
 
 .navbar  {
@@ -49,7 +49,6 @@ nav ul {
     padding: 0px;
     display: flex;
     justify-content: space-around;
-
 }
 
 nav li {
@@ -68,3 +67,26 @@ nav ul li:hover {
     font-size: 1.1em;
     background-color: #9D00FF;
 }
+
+/*BIOGRAPHY PAGE*/
+
+.biography-container {
+    display: flex;
+    padding: 20px;
+}
+
+.biography {
+    background-color: #000;
+    color: #e9eaf1;
+    line-height: 3;
+    margin: 0;
+    float: left;
+    clear: none;
+    width: 100vw;
+}
+
+.biography h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
