@@ -49,3 +49,8 @@
           captionText.innerHTML = dots[slideIndex-1].alt;
         };
 
+//Alert box for submit button on Sign Up Page
+
+        function myFunction() {
+          alert("Thanks for subscribing! We will be in touch soon!");
+        }
