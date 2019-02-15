@@ -571,6 +571,7 @@ input {
    }
     .form-container {
         flex-direction: column;
+        margin-top: 200px;
     }
     .social {
         flex-direction: column;
