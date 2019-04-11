@@ -9,7 +9,7 @@ This project is a fan based website for Australian electro-pop band Empire of th
 3.	As I user, when I click on the tour dates section, I want to view any past or upcoming live shows with venue and date information.
 4.	As a user when, I click on the singles section, I want to be able to view music videos of a selection of the band's singles.
 5.	As a user, when I click on the gallery section, I was to view pictures of past live gigs via an image gallery.
-6.	As a user, when I click on the sign p section, I want to be able to join the mailing list for ubmitting the form so that I can stay up to date with news, releases and upcoming tour dates.
+6.	As a user, when I click on the sign up section, I want to be able to join the mailing list for ubmitting the form so that I can stay up to date with news, releases and upcoming tour dates.
 7.	As a user, I want to be able to view the site across multiple devices.
 
 
