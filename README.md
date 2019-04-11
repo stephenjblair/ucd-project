@@ -64,7 +64,7 @@ Empire of the Sun are known for their vibrant and colorful live shows and stylin
 
 ## Deployment
 
-The site is deployed live via GitHub Pages, directly from the master branch, and can be viewed [here](https://stephenjblair.github.io/ucd-project/).
+The site is deployed live via GitHub Pages, directly from the master branch, and can be viewed [here](https://stephenjblair.github.io/ucd-project/). To run locally, us `git clone https://github.com/stephenjblair/ucd-project` into a terminal window. To end, use `git remote rm origin`.
 
 ## Credits
 ### Content
