@@ -81,3 +81,6 @@ The photos used in this site were obtained from:
 The albums were embedded via Spotify player.
 
 The video singles playlist was embedded via YouTube player.
+
+## Deployment
+The project was deployed via GitHub Pages and can be viewed here https://stephenjblair.github.io/ucd-project/ 
