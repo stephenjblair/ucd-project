@@ -55,7 +55,7 @@ Empire of the Sun are known for their vibrant and colorful live shows and stylin
 
 
 ## Testing
-General Testing
+
 * [HTML](https://validator.w3.org/) – W3 schools HTML validator. To check for syntax errors.
 * [CSS](https://jigsaw.w3.org/css-validator/) – W3 Schools CSS validator. To check for syntax errors.
 * [JavaScript](https://developers.google.com/web/tools/chrome-devtools/console/) – console via Chrome developer Tools. To check for any scripting errors.
