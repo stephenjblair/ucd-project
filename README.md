@@ -14,7 +14,7 @@ This project is a fan based website for Australian electro-pop band Empire of th
 
 
 ## Wireframes
-Wireframes for mobile, tablet and desktop versions of the site were created with Balsamiq Cloud. These are can be found [here](https://balsamiq.cloud/sw7wei7/pjfm2qw/r2278).
+Wireframes for the site were created with Balsamiq Cloud. An PNG file is included in the UX folder.
 
 ## Design
 Empire of the Sun are known for their vibrant and colorful live shows and styling. I used neon colours and cosmic imagery where possible with a modern, contemporary font to give an overall futuristic theme to the project. Ideas for colour schemes and the corresponding hex code values I would need were obtained from [Palleton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF).
