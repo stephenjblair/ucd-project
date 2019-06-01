@@ -69,7 +69,7 @@ Line 161 - Value Error : `background-color` `none`is not a `background-color val
 Line 168 - Value Error : `border-style` Too many values or values are not recognized : `solid 2px #000`. `border-style` used in error. Changed to `border` to apply shorthands.  
 Line 473 - Value Error : width Missing a semicolon before the property name height. Amended manually.
 
-* [JavaScript](https://developers.google.com/web/tools/chrome-devtools/console/) – console via Chrome developer Tools. To check for any scripting errors.
+* [JavaScript](https://developers.google.com/web/tools/chrome-devtools/console/) – console via Chrome developer Tools. To check for any scripting errors. No Javascript errors were found.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) - To check cross-device compatibility. To trial and error styles and design options in the quickest manner possible.
 * [Responsinator](http://www.responsinator.com/?url=http%3A%2F%2Fstephenjblair.github.io%2Fucd-project) - To further check cross device compatibility.
 
@@ -110,6 +110,10 @@ Line 473 - Value Error : width Missing a semicolon before the property name heig
 2. Check that submit button triggers Javascript alertbox.
 3. Check that all external social media links are active and open in a new window.
 4. Check resposniveness across devices. Form elements collapse into single column when the media query is triggered.
+
+
+## Further Testing
+Friends and family were asked to review the website and provide feedback. The response was very positive with people mainly commenting on the modern design and use of colour.
 
 ## Deployment
 
