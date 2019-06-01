@@ -56,15 +56,64 @@ Empire of the Sun are known for their vibrant and colorful live shows and stylin
 
 ## Testing
 
-* [HTML](https://validator.w3.org/) – W3 schools HTML validator. To check for syntax errors.
+* [HTML](https://validator.w3.org/) – W3 schools HTML validator. To check for syntax errors. 
+A number of images throughout the site returned the error:  
+"An `img` element must have an `alt` attribute, except under certain conditions."  
+Amendments were made to each one accordingly by providing suitable alt attributes.  
+All links were manually tested to ensure that they point to the correct location.  
+External links, for social media etc, will open in a new browser using 'target="_blank"' - these were also tested manually.
 * [CSS](https://jigsaw.w3.org/css-validator/) – W3 Schools CSS validator. To check for syntax errors.
+The validator returned the following errors:  
+Lines 11 , 22, 30 and 49 - Parse errors for `centre centre fixed`. Not neeeded as `background-size` set to `cover`. Removed manually.  
+Line 161 - Value Error : `background-color` `none`is not a `background-color value` : none. Inherited value. Removed manually.  
+Line 168 - Value Error : `border-style` Too many values or values are not recognized : `solid 2px #000`. `border-style` used in error. Changed to `border` to apply shorthands.  
+Line 473 - Value Error : width Missing a semicolon before the property name height. Amended manually.
+
 * [JavaScript](https://developers.google.com/web/tools/chrome-devtools/console/) – console via Chrome developer Tools. To check for any scripting errors.
 * [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) - To check cross-device compatibility. To trial and error styles and design options in the quickest manner possible.
 * [Responsinator](http://www.responsinator.com/?url=http%3A%2F%2Fstephenjblair.github.io%2Fucd-project) - To further check cross device compatibility.
 
+## Manual Testing
+
+* Navbar 
+
+1. Check all links are active and navigate to the correct sections of the site.
+2. Check responsiveness of navbar across all devices. Ensure that burger icon collapses correctly when media quuery is triggered.
+3. Ensure `hover` actions are fucntioning across each `li` item.
+4. Ensure nav bar stays in fixed position for ease of navigation throughout the site.
+
+* Tour Dates Table
+
+1. Ensure `hover` effects are active.
+2. Check responsiveness across all devices and that table is still clearly visible in its intended format.
+
+* Albums Page
+
+1. Ensuring Spotify embedded players load correctly each time.
+2. Checking that the players successfully launch the 30 second sample clip for each album when play is pressed.
+3. Checking responsiveness across devices. Albums collapse into a single column when the media query is triggered.
+
+* Singles Page
+
+1. Check embedded YouTube player loads correctly, and the link is active.
+2. Check responsiveness across devices. Player autosizes when media query is triggered.
+
+* Gallery Page
+
+1. Light box and modal are working correctly when each picture is clicked.
+2. All loads as intended and nothing is distorted in any way.
+3. Gallery ensures responsiveness across devices by adotping a single column formate when the media query is triggered.
+
+* Sign Up Page
+
+1. Ensure form placeholders are in place.
+2. Check that submit button triggers Javascript alertbox.
+3. Check that all external social media links are active and open in a new window.
+4. Check resposniveness across devices. Form elements collapse into single column when the media query is triggered.
+
 ## Deployment
 
-The site is deployed live via GitHub Pages, directly from the master branch, and can be viewed [here](https://stephenjblair.github.io/ucd-project/). To run locally, us `git clone https://github.com/stephenjblair/ucd-project` into a terminal window. To end, use `git remote rm origin`.
+The site is deployed live via GitHub Pages, directly from the master branch, and can be viewed [here](https://stephenjblair.github.io/ucd-project/). To run locally, use `git clone https://github.com/stephenjblair/ucd-project` into a terminal window. To end, use `git remote rm origin`.
 
 ## Credits
 ### Content

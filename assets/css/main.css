@@ -8,7 +8,7 @@ html,body {
     font-family: 'Syncopate', sans-serif;
 }
     .bg {
-            background-image: url("../images/empire1.jpg"); no-repeat center center fixed;
+            background-image: url("../images/empire1.jpg"); 
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: contain;
@@ -19,7 +19,7 @@ html,body {
         }
         
         .tour-dates {
-            background-image: url("../images/cosmicboat1.jpg"); no-repeat center center fixed;
+            background-image: url("../images/cosmicboat1.jpg");
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: contain;
@@ -27,7 +27,7 @@ html,body {
             background-position: center;
         }        
         .singles {
-            background-image: url("../images/stars.jpg"); no-repeat center center fixed;
+            background-image: url("../images/stars.jpg");
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: contain;
@@ -37,8 +37,7 @@ html,body {
             background-position: center;
         }
         .sign-up {
-            background-image: url("../images/empire3.jpg"); no-repeat center center fixed;
-            -webkit-background-size: cover;
+            background-image: url("../images/empire3.jpg");
             -moz-background-size: cover;
             -o-background-size: contain;
             background-size: cover;
@@ -59,9 +58,6 @@ html,body {
     padding-top: 0;
 }
 
-.navbar-toggle {
-    display: hidden;
-}
 
 .navbar  {
     font-size: 0.8em;
@@ -160,9 +156,6 @@ th:hover {
     background-color: #9D00FF;
 }
 
-td {
-    background-color: none;
-}
 
 .row-content:hover {
     background-color: #fff;
@@ -172,7 +165,7 @@ td {
 
 .sold-out {
     background-color: red;
-    border-style: solid 2px #000;
+    border: 2px solid #000;
 }
 
 /*ALBUMS PAGE*/
@@ -472,7 +465,7 @@ input {
 }
 
 .submit-button {
-    width: 230px
+    width: 230px;
     height: 30px;
     background-color: #000;
     color: #fff;
