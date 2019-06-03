@@ -26,16 +26,7 @@ html,body {
             background-size: cover;
             background-position: center;
         }        
-        .singles {
-            background-image: url("../images/stars.jpg");
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: contain;
-            background-size: cover;
-            height: 100vh;
-            width: 100vw;
-            background-position: center;
-        }
+
         .sign-up {
             background-image: url("../images/empire3.jpg");
             -moz-background-size: cover;
@@ -210,6 +201,11 @@ th:hover {
 }
 
 /*SINGLES PAGE*/
+
+.singles {
+    background-color: #1a1a1a;
+   
+}
 
 .singles-container {
   display: flex;
