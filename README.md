@@ -70,7 +70,15 @@ Line 168 - Value Error : `border-style` Too many values or values are not recogn
 Line 473 - Value Error : width Missing a semicolon before the property name height. Amended manually.
 
 * [JavaScript](https://developers.google.com/web/tools/chrome-devtools/console/) – console via Chrome developer Tools. To check for any scripting errors. No Javascript errors were found.
-* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) - To check cross-device compatibility. To trial and error styles and design options in the quickest manner possible.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) - To check cross-device compatibility. To trial and error styles and design options in the quickest manner possible. The following devices were tested via the device toolbar:  
+Mobiles  
+Pixel 2/XL
+iPhone 5/SE/6/7/8
+iPhone 6/7/8+
+iPhone X
+Galaxy S5/S9/S9+  
+Tablets  
+iPad/iPad Pro
 * [Responsinator](http://www.responsinator.com/?url=http%3A%2F%2Fstephenjblair.github.io%2Fucd-project) - To further check cross device compatibility.
 
 ## Manual Testing
@@ -111,6 +119,14 @@ Line 473 - Value Error : width Missing a semicolon before the property name heig
 3. Check that all external social media links are active and open in a new window.
 4. Check resposniveness across devices. Form elements collapse into single column when the media query is triggered.
 
+## Cross Browser Testing
+
+Chrome - 80.3% of users - [W3 Schools - April 2019 stats.](https://www.w3schools.com/browsers/default.asp)  Version 74.0.3729.131 - no errors or issues found.  
+
+
+Firefox - 9.6% of users - [W3 Schools - April 2019 stats.](https://www.w3schools.com/browsers/default.asp) Quantum 67.0 - no errors or issues found.
+
+Safari 3.3% of users - [W3 Schools - April 2019 stats.](https://www.w3schools.com/browsers/default.asp) Version 12 - no errors or issues found.  
 
 ## Further Testing
 Friends and family were asked to review the website and provide feedback. The response was very positive with people mainly commenting on the modern design and use of colour.
