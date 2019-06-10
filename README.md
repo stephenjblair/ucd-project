@@ -1,6 +1,9 @@
 # User Centric Design Project 01  
 This project is a fan based website for Australian electro-pop band Empire of the Sun.
 
+## Live Demo
+
+The site can be viewed [here](https://stephenjblair.github.io/ucd-project/)
 
 ## User Stories
 
