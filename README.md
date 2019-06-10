@@ -17,7 +17,7 @@ The site can be viewed [here](https://stephenjblair.github.io/ucd-project/)
 
 
 ## Wireframes
-Wireframes for the site were created with Balsamiq Cloud. An PNG file is included in the UX folder.
+Wireframes for the site were created with Balsamiq Cloud. A PNG file is included in the UX folder.
 
 ## Design
 Empire of the Sun are known for their vibrant and colorful live shows and styling. I used neon colours and cosmic imagery where possible with a modern, contemporary font to give an overall futuristic theme to the project. Ideas for colour schemes and the corresponding hex code values I would need were obtained from [Palleton](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF).
@@ -133,6 +133,15 @@ Safari 3.3% of users - [W3 Schools - April 2019 stats.](https://www.w3schools.co
 
 ## Further Testing
 Friends and family were asked to review the website and provide feedback. The response was very positive with people mainly commenting on the modern design and use of colour.
+
+Fellow students via the #peer-code review channel on Slack were asked to provide feedback. Some issues noted below:
+
+1. Your 'why' comments missing from HTML and CSS. *Added throughout `index.html` and `main.css` post feedback.
+2. In your biography section your text stretches all the way to the edges of my wide screen, which doesn't give me a good user experience. Consider adding some padding to the sides on the larger screen sizes.  
+3. On mobile view the text looks strange because it is set to justify to the edges, when the words are so large it makes it quite hard to read  when the spacing is off. Consider setting them to justify left on smaller devices.  
+4. I can click your send button for contact form without any input in the fields. Set them to required to fix that.  
+5. I can also put a non-email into the email field. Set the type attribute to email to fix that, then it will give the user an error message unless the entry has email format.
+- The tour dates navigation selection doesn't appear to work.
 
 ## Deployment
 
